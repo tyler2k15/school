@@ -1,2 +1,4 @@
-# school
-Repository for all school projects
+# Tyler's School Projects
+
+Includes files for all school projects in the following subjects:
+- Web Development 1
