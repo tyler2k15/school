@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+   <style type="text/css">
+       section > p:first-of-type:first-line {
+           text-transform: uppercase;
+       }
+       /*   This isn't working on Safari, Chrome, or Opera. Unable to test on Firefox or IE
+            Unable to install Firefox, get error
+            Unable to install IE, using MAC OS X */
+
+       section > p:first-of-type:first-letter {
+           font-size: 250%;
+           font-family: 'Times New Roman', Times, serif;
+       }
+   </style>
 
    <head>
    <!--
