@@ -60,3 +60,15 @@ nav.horizontalNAV li a:hover {
     margin-left: 33%;
     width: 40%;
 }
+
+#president h1 {
+    font-family: 'Lucida Calligraphy', 'Apple Chancery', cursive;
+    font-size: 158%;
+    font-weight: bold;
+    margin: 10px 0px 0px 10px;
+}
+
+#president h2 {
+    font-size: 105%;
+    margin: 0px 0px 10px 15px;
+}
