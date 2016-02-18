@@ -129,13 +129,6 @@ nav.verticalNAV a:hover {
     width: 50%;
 }
 
-/* Figure box styles */
-
-#story figure {
-    float: left;
-    width: 49%;
-}
-
 #story article hgroup {
     background: rgb(97, 30, 2) url(rawlings.png) bottom right no-repeat;
 
@@ -158,4 +151,25 @@ nav.verticalNAV a:hover {
 
 #story article hgroup h2 {
     font-size: 105%;
+}
+
+#story article p {
+    font-size: 80%;
+    margin: 10px;
+}
+
+#story article ul li {
+    font-size: 80%;
+    margin: 15px 25px;
+}
+
+#story article ul li strong {
+    fonr-weight: bold;
+}
+
+/* Figure box styles */
+
+#story figure {
+    float: left;
+    width: 49%;
 }
