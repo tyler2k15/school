@@ -226,3 +226,19 @@ aside p {
     font-size: 75%;
     margin: 15px;
 }
+
+/* Page footer styles */
+
+footer {
+    clear: left;
+    margin-left: 33%;
+    width: 66%;
+}
+
+footer address {
+    color: rgb(182, 182, 92);
+    font-size: 80%;
+    font-style: normal;
+    padding-top: 10px;
+    text-align: center;
+}
