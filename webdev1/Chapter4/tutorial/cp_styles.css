@@ -1,0 +1,62 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Style Sheet
+   Author: Tyler Ronek
+   Date:   2/17/2016
+
+   Filename:         cp_styles.css
+   Supporting Files: atwood.png, bike_bg.png, rawlings.png
+
+*/
+
+/* Styles for the Page Body */
+
+body {
+    background: black url(bike_bg.png) top left no-repeat;
+    width: 95%;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+/* General Navigation List */
+
+nav a {
+    text-decoration: none;
+}
+
+/* Horizontal Navigation List */
+
+nav.horizontalNAV {
+    margin-left: 33%;
+    width: 66%;
+}
+
+nav.horizontalNAV li {
+    font-size: 87.5%;
+    float: left;
+    padding: 15px 0px;
+    text-align: center;
+    width: 20%;
+}
+
+nav.horizontalNAV li a {
+    color: rgb(255, 255, 99);
+}
+
+nav.horizontalNAV li a:hover {
+    color: white;
+}
+
+/* President's Message */
+
+#president {
+    background-color: rgb(105, 96, 87);
+    background-color: rgba(255,255,255,0.3);
+    clear: left;
+    float: left;
+    margin-left: 33%;
+    width: 40%;
+}
