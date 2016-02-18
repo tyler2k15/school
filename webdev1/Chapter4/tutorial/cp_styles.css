@@ -50,6 +50,19 @@ nav.horizontalNAV li a:hover {
     color: white;
 }
 
+/* Vertical Navigation List */
+
+nav.verticalNAV {
+    float: left;
+    margin-left: 3%;
+    width: 23%;
+}
+
+nav.verticalNAV a {
+    color: rgb(182, 182, 92);
+    line-height: 2.2em;
+}
+
 /* President's Message */
 
 #president {

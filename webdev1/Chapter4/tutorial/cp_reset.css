@@ -33,7 +33,7 @@ body * {
 
 /* Temporarily hide the page sections */
 
-nav.verticalNAV, #story, header, aside, footer {
+#story, header, aside, footer {
     display: none;
 }
 
