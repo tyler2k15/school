@@ -32,7 +32,7 @@ body * {
 }
 
 /* Temporarily hide the page sections */
-header, aside, footer {
+aside, footer {
     display: none;
 }
 
