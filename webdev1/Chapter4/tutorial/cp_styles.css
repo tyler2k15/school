@@ -16,6 +16,7 @@
 
 body {
     background: black url(bike_bg.png) top left no-repeat;
+    position: relative;
     width: 95%;
     min-width: 1000px;
     max-width: 1400px;
@@ -204,5 +205,24 @@ aside {
     top: 400px;
     left: 10px;
 
-    width:30%;
+    width: 30%;
+    height: 450px;
+    overflow: auto;
+}
+
+aside h1 {
+    font-size: 105%;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+aside h2 {
+    font-size: 85%;
+    font-weight: bold;
+}
+
+aside p {
+    font-size: 75%;
+    margin: 15px;
 }
