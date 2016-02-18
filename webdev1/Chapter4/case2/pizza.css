@@ -4,12 +4,22 @@
    Case Problem 2
 
    Pizza Style Sheet
-   Author: 
-   Date:   
+   Author: Tyler Ronek
+   Date:   2/17/2016
 
    Filename:         pizza.css
-   Supporting Files: 
+   Supporting Files: redball.htm
 
 */
 
 
+header, section, aside, nav {
+    display: block;
+}
+
+body {
+    background-color: red;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}

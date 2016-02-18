@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css" afterPath="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter4/case2/pizza.css" afterPath="$PROJECT_DIR$/webdev1/Chapter4/case2/pizza.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter4/case2/redball.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter4/case2/redball.htm" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cp_styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cp_styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.96590906">
-              <caret line="242" column="23" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
+            <state vertical-scroll-proportion="-26.086956">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -53,6 +55,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pizza.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/case2/pizza.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35795453">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redball.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/case2/redball.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.0">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -63,6 +85,8 @@
       <list>
         <option value="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_reset.css" />
         <option value="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter4/case2/redball.htm" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter4/case2/pizza.css" />
       </list>
     </option>
   </component>
@@ -151,10 +175,6 @@
               <option name="myItemId" value="Chapter4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -171,6 +191,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Chapter4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="case2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,8 +315,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96590906">
-          <caret line="242" column="23" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
+        <state vertical-scroll-proportion="-26.086956">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/case2/redball.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/case2/pizza.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35795453">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding />
         </state>
       </provider>
