@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_reset.css" afterPath="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css" afterPath="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cp_reset.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cp_reset.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57954544">
+            <state vertical-scroll-proportion="-22.173914">
               <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cp_styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cp_styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-34.347828">
-              <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.96590906">
+              <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -62,8 +61,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css" />
         <option value="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_reset.css" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css" />
       </list>
     </option>
   </component>
@@ -282,18 +281,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css">
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.347828">
-          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        <state vertical-scroll-proportion="-22.173914">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_reset.css">
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57954544">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.96590906">
+          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
           <folding />
         </state>
       </provider>

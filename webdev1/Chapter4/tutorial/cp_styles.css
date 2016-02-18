@@ -109,3 +109,29 @@ nav.verticalNAV a:hover {
     font-size: 87.5%;
     margin: 0px 40% 20px 15px;
 }
+
+/* Story Section Styles */
+
+#story {
+    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.8);
+    clear: left;
+    float: left;
+    margin: 20px 0px 0px 33%;
+    width: 66%;
+}
+
+/* Article Styles */
+
+#story article {
+    border-right: 1px solid black;
+    float: left;
+    width: 50%;
+}
+
+/* Figure box styles */
+
+#story figure {
+    float: left;
+    width: 49%;
+}
