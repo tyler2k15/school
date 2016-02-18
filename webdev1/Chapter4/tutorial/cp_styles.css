@@ -175,7 +175,7 @@ nav.verticalNAV a:hover {
 }
 
 #story figure img {
-    border: 5px insert rgb(227, 168, 145);
+    border: 5px inset rgb(227, 168, 145);
     display: block;
     margin: 30px auto 10px;
     width: 80%;
