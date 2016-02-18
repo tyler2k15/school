@@ -55,6 +55,14 @@ nav.horizontalNAV li a:hover {
 #president {
     background-color: rgb(105, 96, 87);
     background-color: rgba(255,255,255,0.3);
+    background-image: url(atwood.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    -o-background-size: 40%;
+    -moz-background-size: 40%;
+    background-size: 40%;
+
     clear: left;
     float: left;
     margin-left: 33%;
@@ -71,4 +79,9 @@ nav.horizontalNAV li a:hover {
 #president h2 {
     font-size: 105%;
     margin: 0px 0px 10px 15px;
+}
+
+#president p {
+    font-size: 87.5%;
+    margin: 0px 40% 20px 15px;
 }
