@@ -32,8 +32,7 @@ body * {
 }
 
 /* Temporarily hide the page sections */
-
-#story, header, aside, footer {
+header, aside, footer {
     display: none;
 }
 
