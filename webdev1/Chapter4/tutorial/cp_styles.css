@@ -59,8 +59,15 @@ nav.verticalNAV {
 }
 
 nav.verticalNAV a {
+    border-bottom: 1px solid rgb(182, 182, 92);
     color: rgb(182, 182, 92);
+    display: block;
     line-height: 2.2em;
+}
+
+nav.verticalNAV a:hover {
+    background-color: rgb(105, 96, 87);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* President's Message */
