@@ -83,6 +83,10 @@ nav.verticalNAV a:hover {
     -moz-background-size: 40%;
     background-size: 40%;
 
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+
     clear: left;
     float: left;
     margin-left: 33%;
