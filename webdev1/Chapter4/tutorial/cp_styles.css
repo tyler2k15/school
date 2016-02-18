@@ -194,3 +194,15 @@ nav.verticalNAV a:hover {
     font-style: italic;
     text-align: center;
 }
+
+/* Sidebar Styles */
+
+aside {
+    color: rgb(145, 98, 78);
+
+    position: absolute;
+    top: 400px;
+    left: 10px;
+
+    width:30%;
+}
