@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter6/tutorial/formstxt.css" afterPath="$PROJECT_DIR$/webdev1/Chapter6/tutorial/forms.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter6/tutorial/surveytxt.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter6/tutorial/survey.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter6/case1/commtxt.css" afterPath="$PROJECT_DIR$/webdev1/Chapter6/case1/comments.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter6/case1/sblogtxt.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter6/case1/sblogger.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="school.iws" />
@@ -25,21 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="survey.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/tutorial/survey.htm">
+      <file leaf-file-name="sblogger.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/case1/sblogger.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.52">
-              <caret line="131" column="75" selection-start-line="131" selection-start-column="75" selection-end-line="131" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.687067">
+              <caret line="104" column="104" selection-start-line="104" selection-start-column="104" selection-end-line="104" selection-end-column="104" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/tutorial/forms.css">
+      <file leaf-file-name="comments.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/case1/comments.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9619261">
-              <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
+            <state vertical-scroll-proportion="-4.76">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/tutorial/survey.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.92">
+              <caret line="74" column="104" selection-start-line="73" selection-start-column="14" selection-end-line="74" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -66,6 +76,8 @@
         <option value="$PROJECT_DIR$/webdev1/Chapter5/case2/calendar.css" />
         <option value="$PROJECT_DIR$/webdev1/Chapter6/tutorial/survey.htm" />
         <option value="$PROJECT_DIR$/webdev1/Chapter6/tutorial/forms.css" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter6/case1/comments.css" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter6/case1/sblogger.htm" />
       </list>
     </option>
   </component>
@@ -175,6 +187,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="school" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webdev1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="case1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,18 +557,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/tutorial/survey.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.52">
-          <caret line="131" column="75" selection-start-line="131" selection-start-column="75" selection-end-line="131" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/tutorial/forms.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9619261">
           <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/case1/comments.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.76">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/tutorial/survey.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.92">
+          <caret line="74" column="104" selection-start-line="73" selection-start-column="14" selection-end-line="74" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter6/case1/sblogger.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.687067">
+          <caret line="104" column="104" selection-start-line="104" selection-start-column="104" selection-end-line="104" selection-end-column="104" />
           <folding />
         </state>
       </provider>
