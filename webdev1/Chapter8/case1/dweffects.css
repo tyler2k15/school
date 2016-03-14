@@ -1,0 +1,33 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Case Problem 1
+   Special Effects style sheet
+   Author: Tyler Ronek
+   Date:   3/13/2016
+
+   Filename:         dweffects.css
+   Supporting Files: 
+
+*/
+
+body {
+    box-shadow: rgba(211, 211, 211, 0.5) -10px 0px 15px,
+                rgba(211,211,211,0.5) 10px 0px 15px;
+}
+
+nav.horizontal ul li {
+    background-color: rgb(224, 238, 238);
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    box-shadow: inset white 3px 3px 2px,
+                inset rgb(147, 207, 207) -5px -5px 5px;
+}
+
+article {
+    box-shadow: inset rgb(171, 171, 171) -15px -15px 75px,
+                rgb(101, 101, 101) 5px 5px 5px;
+}
