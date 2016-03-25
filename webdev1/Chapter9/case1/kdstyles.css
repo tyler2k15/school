@@ -5,13 +5,23 @@
 
    Kelsey's Diner Style Sheet
 
-   Author:    
-   Date:      
+   Author:    Tyler Ronek
+   Date:      3/24/2016
 
    Filename:         kdstyles.css
    Supporting Files: 
 
 */
+
+/* Styles for Body */
+
+body {
+   background-image: url(tan.jpg);
+}
+
+h5, h1 {
+   text-align: center;
+}
 
 img {
    border-width: 0px;
