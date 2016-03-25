@@ -5,8 +5,8 @@
 
    Wizard Works Style Sheet
 
-   Author:    
-   Date:      
+   Author:    Tyler Ronek
+   Date:      3/24/2016
 
    Filename:         ww.css
    Supporting Files: back.jpg
@@ -19,6 +19,7 @@ body {
    font-size: 16px; 
    margin: 0px;
    position: absolute;
+   background-color: white;
 }
 
 #head {
@@ -37,6 +38,11 @@ body {
 
 #head img {
    margin: 0px;
+   float: left;
+}
+
+#main img {
+   float: right;
 }
 
 #head a {
@@ -104,6 +110,10 @@ address {
    font-family: sans-serif; 
    text-align: center; 
    margin-top: 15px;
+}
+
+address#ablue {
+   font-color:blue;
 }
 
 img {
