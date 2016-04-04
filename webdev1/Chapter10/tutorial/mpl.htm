@@ -8,8 +8,8 @@
       Tutorial Case
 
       Monroe Public Library
-      Author: 
-      Date:   
+      Author: Tyler Ronek
+      Date:   4/4/16
 
       Filename:         mpl.htm
       Supporting files: modernizr-1.5.js, mpl.jpg, mplstyles.css, spam.js
@@ -22,6 +22,30 @@
       <script src="modernizr-1.5.js"></script>
 
       <link href="mplstyles.css" rel="stylesheet" />
+      <script src="spam.js"></script>
+
+      <script type="text/javascript">
+         function showEM(userName, emServer) {
+
+            /*
+               The showEM() function displays a link to the user's email address.
+               the text of the user and email server names are entered in
+               reverse in order to thwart e-mail harvesters.
+            */
+
+            userName = stringReverse(userName); // reverse the text of the userName parameter
+            emServer = stringReverse(emServer); // reverse the text of the emServer parameter
+
+            /*
+            Prevents spam bots from stealing email addresses from the source code.
+             */
+
+            var emLink = userName + "@" + emServer; // combine the text of userName + @ + emServer
+            document.write("<a href='mailto:" + userName + "@" + emLink + "'>");
+            document.write(emLink);
+            document.write("</a>");
+         }
+      </script>
 
    </head>
 
@@ -63,36 +87,54 @@
                <td>Catherine Adler<br />Library Director</td>
                <td>555-3100</td>
                <td>
+                  <script type="text/javascript">
+                     showEM("reldac", "vog.lpm");
+                  </script>
                </td>
             </tr>
             <tr>
                <td>Michael Li<br />Head of Adult Services</td>
                <td>555-3145</td>
                <td>
+                  <script type="text/javascript">
+                     showEM("ilekim", "vog.lpm");
+                  </script>
                </td>
             </tr>
             <tr>
                <td>Kate Howard<br />Head of Technical Services</td>
                <td>555-4389</td>
                <td>
+                  <script type="text/javascript">
+                     showEM("drawohk", "vog.lpm");
+                  </script>
                </td>
             </tr>
             <tr>
                <td>Robert Hope<br />Head of Children's Services</td>
                <td>555-7811</td>
                <td>
+                  <script type="text/javascript">
+                     showEM("epohr", "vog.lpm");
+                  </script>
                </td>
             </tr>
             <tr>
                <td>Wayne Lewis<br />Circulation Services Supervisor</td>
                <td>555-9001</td>
                <td>
+                  <script type="text/javascript">
+                     showEM("siwelw", "vog.lpm");
+                  </script>
                </td>
             </tr>
             <tr>
                <td>Bill Forth<br />Interlibrary Loan</td>
                <td>555-9391</td>
                <td>
+                  <script type="text/javascript">
+                     showEM("htrofb", "vog.lpm");
+                  </script>
                </td>
             </tr>
          </table>
