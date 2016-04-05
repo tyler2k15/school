@@ -47,6 +47,8 @@
       multi-dimensional array, puzzle.
 	
 */
+/* Run the init() function when the browser loads the page */
+window.onload = init;
 
 function init() {
    /* Write the first puzzle data into the web page */
