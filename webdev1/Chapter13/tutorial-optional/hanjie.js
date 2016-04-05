@@ -97,7 +97,26 @@ function setupPuzzle() {
     // Set the initial color of each cell to gold
     for (var i = 0; i < puzzleCells.length; i++) {
         puzzleCells[i].style.backgroundColor = "rgb(233, 207, 29)";
+
+        // Change the color with each click.
+        puzzleCells[i].onclick = changeBackground();
     }
+}
+
+function changeBackground() {
+    // Determine the current background color of the data cell.
+    var bColor = this.style.backgroundColor;
+
+    // If the color is gold, make it dark grey;
+    // If the color is dark grey, make it white;
+    // If the color is white, change it back to gold;
+
+    if (bColor =="rgb(233, 207, 29)") bColor = "rgb(101, 101, 101)"
+    else if (bColor == "rgb(101, 101, 101)") bColor = "white"
+    else bColor = "rgb(233, 207, 29)";
+
+    // Apply the new background color to the data cell.
+    this.style.backgroundColor = bColor;
 }
 
 function drawGrid(puzzle) {
