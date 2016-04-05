@@ -8,8 +8,8 @@
       Case Problem 2
 
       The Ridgewood Herald Tribune
-      Author: 
-      Date:   
+      Author: Tyler Ronek
+      Date:   4/4/2016
 
       Filename:         front.htm
       Supporting files: ads1.jpg - ads5.jpg, ads.js, fp.jpg, logo.jpg, 
@@ -22,6 +22,8 @@
       <script src="modernizr-1.5.js"></script>
 
       <link href="styles.css" rel="stylesheet" type="text/css" />
+      <script src="random.js"></script>
+      <script src="ads.js"></script>
 
    </head>
 
@@ -81,9 +83,34 @@
       <section>
 
          <div id="ads">
-            <a href="http://www.dhome.com">
+
+           <script type="text/javascript">
+               var rNumber = randInt(5); // Generate a random integer from 1-5.
+               var rAd = adDescription(rNumber); // Description of the random ad.
+               var rLink = adLink(rNumber); // URL of the random ad.
+
+               /*
+                  Insert a command to write the HTML Code
+                     <a href="url">
+                        <img src="adn.jpg" alt="description"/>
+                     </a>
+
+                     Where url is value of the rLink variable;
+                     n is the value of rNumber variable;
+                     description is the value of the rAd variable;
+                */
+
+              document.write("<a href='" + rLink + "'>"); // url is value of rLink var;
+              document.write("<img src='ad" + rNumber + ".jpg" + "' alt='" + rAd + "'/>");
+               //                n is the value of rNumber;
+               //                description is value of rAd var;
+              document.write("</a>");
+
+            </script>
+
+            <!-- <a href="http://www.dhome.com">
                <img src="ad3.jpg" alt="[AD] dHome - Quality Geodesic Domes and Homes" />
-            </a>
+            </a> !-->
          </div>
 
          <div id="request"><a href="#">Contact us today to place your ad</a></div>
