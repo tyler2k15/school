@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter13/case1/fonttxt.js" afterPath="$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter13/case1/tlmtxt.css" afterPath="$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter13/case1/twinstxt.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hanjie.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm">
+      <file leaf-file-name="twins.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hanjie.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
+      <file leaf-file-name="tlm.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fontsizer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -183,10 +195,6 @@
               <option name="myItemId" value="Chapter13" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial-optional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -203,6 +211,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Chapter13" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="case1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,7 +321,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="17344000" />
+      <workItem from="1459815898784" duration="17549000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -577,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459834716424</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="change grids.js reference to grids2.js">
+      <created>1459834751408</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1459834751408</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28139000" />
+    <option name="totallyTimeSpent" value="28344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -618,7 +637,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update README.md" />
     <MESSAGE value="Chapter 11" />
     <MESSAGE value="Chapter 11 Tutorial" />
     <MESSAGE value="Chapter 11 Case 3" />
@@ -643,7 +661,8 @@
     <MESSAGE value="Create showSolution function and adding event handler for it." />
     <MESSAGE value="Apply confirm() method" />
     <MESSAGE value="Create checkSolution()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create checkSolution()" />
+    <MESSAGE value="change grids.js reference to grids2.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="change grids.js reference to grids2.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,27 +673,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cycle.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/case2/pizza.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/case2/redball.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1019,6 +1017,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -1029,11 +1035,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm">
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
