@@ -3,8 +3,8 @@
    Tutorial 13
    Case Problem 1
 
-   Author: 
-   Date:   
+   Author: Tyler Ronek
+   Date:   4/4/16
 
    Function List
    =============
