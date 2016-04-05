@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js" afterPath="$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css" afterPath="$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm" />
     </list>
     <ignored path="school.iws" />
@@ -26,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="twins.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="twins.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="183">
+              <caret line="87" column="19" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tlm.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tlm.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="410">
+              <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -105,8 +103,8 @@
         <option value="$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js" />
         <option value="$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm" />
         <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js" />
-        <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css" />
         <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css" />
       </list>
     </option>
   </component>
@@ -322,7 +320,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="17586000" />
+      <workItem from="1459815898784" duration="18456000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -604,11 +602,25 @@
       <option name="project" value="LOCAL" />
       <updated>1459834953234</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update author/date">
+      <created>1459834991920</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1459834991920</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add styles to set &lt;p&gt; font-size and width of figure box inlne img.">
+      <created>1459835840362</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1459835840362</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28381000" />
+    <option name="totallyTimeSpent" value="29251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -645,8 +657,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Chapter 11 Tutorial" />
-    <MESSAGE value="Chapter 11 Case 3" />
     <MESSAGE value="Update completed assignments&#10;" />
     <MESSAGE value="Chapter 12 Tutorial" />
     <MESSAGE value="Update completed assignments" />
@@ -670,7 +680,9 @@
     <MESSAGE value="Create checkSolution()" />
     <MESSAGE value="change grids.js reference to grids2.js" />
     <MESSAGE value="update Case 1 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="update Case 1 files" />
+    <MESSAGE value="update author/date" />
+    <MESSAGE value="Add styles to set &lt;p&gt; font-size and width of figure box inlne img." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add styles to set &lt;p&gt; font-size and width of figure box inlne img." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1051,18 +1063,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css">
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="183">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm">
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="410">
+          <caret line="251" column="4" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="4" />
           <folding />
         </state>
       </provider>
