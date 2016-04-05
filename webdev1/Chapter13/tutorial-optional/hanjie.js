@@ -176,6 +176,31 @@ function showSolution() {
     }
 }
 
+function checkSolution() {
+    // Create a collection of all puzzle cells
+    var allCells = document.querySelectorAll("#hanjieGrid td");
+
+    // Set the initial solved state of the puzzle to true
+    var solved = true;
+
+    // Loop through the puzzle cells, exiting when an incorrect cell is found, setting the variable to false.
+    for (var i = 0; i < allCells.length; i++) {
+        var cellColor = allCells[i].style.backgroundColor;
+        var cellClass = allCells[i].className;
+
+        // A cell is incorrect if it is in the marked class and is not gray,
+        // or in the empty class and is not white
+        if ((cellClass == "marked" && cellColor !== "rgb(101, 101, 101)") ||
+            (cellClass == "empty" && cellColor !== "white")) {
+            solved = false;
+            break;
+        }
+    }
+
+    // If solved is still true after the loop, display an alert box
+    if (solved) alert("Congratulations! You solved the puzzle!");
+}
+
 function drawGrid(puzzle) {
 
    /* Initial HTML String for the Hanjie Puzzle */
