@@ -27,8 +27,8 @@
       <file leaf-file-name="hanjie.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="274">
+              <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="hanjie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="453">
+              <caret line="146" column="32" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -309,7 +309,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="15760000" />
+      <workItem from="1459815898784" duration="16293000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -535,11 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459832668644</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Change background color for incorrect cells, making incorrect cells, assigning the peek() function to the onclick event.">
+      <created>1459833184836</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1459833184836</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26555000" />
+    <option name="totallyTimeSpent" value="27088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -599,7 +606,8 @@
     <MESSAGE value="Change background color of every table cell by adding setupPuzzle() function and revising init() and swapPuzzle()" />
     <MESSAGE value="To change the background color" />
     <MESSAGE value="Create peek() funtion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create peek() funtion" />
+    <MESSAGE value="Change background color for incorrect cells, making incorrect cells, assigning the peek() function to the onclick event." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change background color for incorrect cells, making incorrect cells, assigning the peek() function to the onclick event." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -977,16 +985,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="274">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="453">
+          <caret line="146" column="32" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -142,6 +142,23 @@ function peek() {
         if (cell.style.backgroundColor == "rgb(101, 101, 101)")
             cell.style.backgroundColor = "red";
     }
+
+    // Remove hints after 0.5 seconds
+    setTimeout("unpeek()", 500);
+}
+
+function unpeek() {
+    // Create collection of all puzzle data cells
+    var allCells = document.querySelectorAll("#hanjieGrid td");
+
+    // Change all pink cells back to white and change all red cells back to dark grey
+    for (var i = 0; i < allCells.lenth; i++) {
+        var cell = allCells[i];
+        if (cell.style.backgroundColor == "rgb(255, 192, 192)")
+            cell.style.backgroundColor = "white");
+        if (cell.style.backgroundColor == "red")
+            cell.style.backgroundColor = "rgb(101, 101, 101)";
+    }
 }
 
 function drawGrid(puzzle) {
