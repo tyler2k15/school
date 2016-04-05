@@ -48,7 +48,15 @@
 	
 */
 
+function init() {
+   /* Write the first puzzle data into the web page */
+    document.getElementsByTagName("h1")[0].innerHTML = "Hanjie Puzzle 1";
+    document.getElementById("hint").innerHTML = puzzle1Hint;
+    document.getElementById("rating").innerHTML = puzzle1Rating;
 
+    /* Display the first puzzleusing the drawGrid() function */
+    document.getElementById("puzzle").innerHTML = drawGrid(puzzle1);
+}
 
 
 function drawGrid(puzzle) {
