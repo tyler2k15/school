@@ -244,5 +244,15 @@ footer span a {
 
 /* Elastically Sized Objects in the Web Page */
 
+/*
+    Insert style rule to set width of the inline image within figure box in article element to 12em
+*/
 
+figure img {
+    width: 12em;
+}
+
+article p {
+   font-size: 1em;
+}
 
