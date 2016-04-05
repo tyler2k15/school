@@ -67,6 +67,14 @@ function init() {
     }
 }
 
+function swapPuzzle() {
+    // Determine the puzzle to show based on the button's id value
+
+    var title = "Hanjie " + this.value;
+    var hint = eval(this.id + "Hint");
+    var rating = eval(this.id + "Rating");
+    var puzzle = eval(this.id);
+}
 
 function drawGrid(puzzle) {
 
