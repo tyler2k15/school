@@ -65,6 +65,9 @@ function init() {
     for (var i = 0; i < puzzleButtons.length; i++) {
         puzzleButtons[i].onclick = swapPuzzle;
     }
+
+    // Set up the initial appearance of the first puzzle
+    setupPuzzle();
 }
 
 function swapPuzzle() {
@@ -82,6 +85,19 @@ function swapPuzzle() {
 
     // Display the pizzle using the drawGrid() function.
     document.getElementById("puzzle").innerHTML = drawGrid(puzzle);
+
+    // Set up the initial appearance of the first puzzle
+    setupPuzzle();
+}
+
+function setupPuzzle() {
+    // Match all of the data cells in the puzzle.
+    var puzzleCells = document.querySelectorAll("#hanjieGrid td");
+
+    // Set the initial color of each cell to gold
+    for (var i = 0; i < puzzleCells.length; i++) {
+        puzzleCells[i].style.backgroundColor = "rgb(233, 207, 29)";
+    }
 }
 
 function drawGrid(puzzle) {
