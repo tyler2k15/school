@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter11/case3/guesstxt.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter11/case3/guess.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter11/tutorial/clock.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter11/tutorial/clock.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter11/tutorial/functions.js" afterPath="$PROJECT_DIR$/webdev1/Chapter11/tutorial/functions.js" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,24 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="clock.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/webdev1/Chapter11/tutorial/clock.htm">
+      <file leaf-file-name="guess.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter11/case3/guess.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+            <state relative-caret-position="322">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webdev1/Chapter11/tutorial/functions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +77,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/webdev1/Chapter11/tutorial/functions.js" />
         <option value="$PROJECT_DIR$/webdev1/Chapter11/tutorial/clock.htm" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter11/case3/guess.htm" />
       </list>
     </option>
   </component>
@@ -179,10 +167,6 @@
               <option name="myItemId" value="Chapter11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -199,6 +183,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Chapter11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="case3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,7 +283,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="6264000" />
+      <workItem from="1459815898784" duration="6687000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -395,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459820067331</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Chapter 11 Tutorial">
+      <created>1459822590228</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1459822590228</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17059000" />
+    <option name="totallyTimeSpent" value="17482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -441,20 +436,14 @@
     <MESSAGE value="Update README.md to include due dates." />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Chapter 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 11" />
+    <MESSAGE value="Chapter 11 Tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 11 Tutorial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter5/case2/calendar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter5/case2/feb.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -803,6 +792,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter11/tutorial/clock.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter11/tutorial/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -813,10 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter11/tutorial/clock.htm">
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter11/case3/guess.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+        <state relative-caret-position="322">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="21" />
           <folding />
         </state>
       </provider>
