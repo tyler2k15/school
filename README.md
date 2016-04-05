@@ -6,7 +6,7 @@ Includes files for all school projects in the following subjects:
 
 
 *Assignments:*
----
+-----
 **Web Development I**
     - Chapter 11 Due 4/10 (complete before going to colorado on 4/7)
     - Chapter 12 Due 4/17
