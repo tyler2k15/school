@@ -84,3 +84,18 @@ function createList(source, TOCList, headings) {
         }
     }
 }
+
+/*
+            Section 14.1 Commit Notes:
+ * Section 14.1
+ * Create the following functions:
+ * window.onload = makeTOC();
+ * Create makeTOC(), createList(),
+ * Apply indexOf() function
+ * Create list item for each function
+
+ Notes: Followed tutorial and double checked all steps,
+ but it does not seem to work on chrome or firefox from my `localhost`
+
+ 
+ */
