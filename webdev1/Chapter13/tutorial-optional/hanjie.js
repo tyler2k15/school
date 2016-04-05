@@ -71,6 +71,9 @@ function init() {
 
     // Add an event handler to the Peek! button
     document.getElementById("peek").onclick = peek;
+
+    // Add an event handler to the Show Solution button.
+    document.getElementById("solve").onclick = showSolution;
 }
 
 function swapPuzzle() {
@@ -155,9 +158,19 @@ function unpeek() {
     for (var i = 0; i < allCells.lenth; i++) {
         var cell = allCells[i];
         if (cell.style.backgroundColor == "rgb(255, 192, 192)")
-            cell.style.backgroundColor = "white");
+            cell.style.backgroundColor = "white";
         if (cell.style.backgroundColor == "red")
             cell.style.backgroundColor = "rgb(101, 101, 101)";
+    }
+}
+
+function showSolution() {
+    // Create a collection of all puzzle data cells
+    var allCells = document.querySelectorAll("#hanjieGrid td");
+
+    // Remove the inline style colors from each cell, leaving only the default external style sheet colors
+    for (var i = 0; i < allCells.length; i++) {
+        allCells[i].style.backgroundColor = "";
     }
 }
 
