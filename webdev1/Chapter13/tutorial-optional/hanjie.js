@@ -58,6 +58,13 @@ function init() {
 
     /* Display the first puzzleusing the drawGrid() function */
     document.getElementById("puzzle").innerHTML = drawGrid(puzzle1);
+
+    /* Add event handlers for the puzzle buttons */
+    var puzzleButtons = document.getElementsByClassName("puzzles");
+
+    for (var i = 0; i < puzzleButtons.length; i++) {
+        puzzleButtons[i].onclick = swapPuzzle;
+    }
 }
 
 
