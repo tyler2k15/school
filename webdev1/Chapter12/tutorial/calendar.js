@@ -29,8 +29,8 @@
 
 function calendar(dateString) {
     // Date that the monthly calendar is based on
-    if (dateString == null) calDate = new Date()
-    else calDate = new Date(dateString);;
+    if (dateString == null) calDate = new Date();
+    else calDate = new Date(dateString);
     // var calDate = new Date("July 6, 2015");
     
     document.write("<table id = 'calendar_table'>");
@@ -138,3 +138,12 @@ function writeCalDays(calendarDay) {
         if (weekDay == 6) document.write("</tr>"); // end the row on Saturday
     }
 }
+
+/*
+    Calendar is not formatting correctly.
+    Unable to find error in JavaScript files.
+    Please advise.
+    -Tyler Ronek
+
+    WebStorm debugger found no errors.
+ */
