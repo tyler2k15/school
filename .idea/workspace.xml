@@ -18,6 +18,28 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="C:\Users\Tyler Ronek\Documents\GitHub\school" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="hanjie.js" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="1031">
+                    <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+                    <folding>
+                      <element signature="n#!!doc" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="school" />
@@ -28,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="183">
-              <caret line="87" column="19" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="19" />
+              <caret line="77" column="95" selection-start-line="77" selection-start-column="86" selection-end-line="77" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -47,20 +69,8 @@
       <file leaf-file-name="fontsizer.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hanjie.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1813">
-              <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+            <state relative-caret-position="181">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -356,7 +366,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="18574000" />
+      <workItem from="1459815898784" duration="19132000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -659,11 +669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459835915556</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="initial creation of startup(); function. enable running this function on page load.">
+      <created>1459835995740</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1459835995740</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29369000" />
+    <option name="totallyTimeSpent" value="29927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -700,7 +717,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Chapter 12 Tutorial" />
     <MESSAGE value="Update completed assignments" />
     <MESSAGE value="Finalize Tutorial 12 - disclaimer about calendar not working." />
     <MESSAGE value="Update Ch13 Tutorial Folder name&#10;" />
@@ -725,7 +741,8 @@
     <MESSAGE value="update author/date" />
     <MESSAGE value="Add styles to set &lt;p&gt; font-size and width of figure box inlne img." />
     <MESSAGE value="Link fontsizer.js to twins.htm, add fontbuttons to fontsizer class, and set values to -0.1 and +0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link fontsizer.js to twins.htm, add fontbuttons to fontsizer class, and set values to -0.1 and +0.1" />
+    <MESSAGE value="initial creation of startup(); function. enable running this function on page load." />
+    <option name="LAST_COMMIT_MESSAGE" value="initial creation of startup(); function. enable running this function on page load." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1088,14 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="87" column="19" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -1106,7 +1115,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1813">
+        <state relative-caret-position="1031">
           <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -1114,10 +1123,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="77" column="95" selection-start-line="77" selection-start-column="86" selection-end-line="77" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="181">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
