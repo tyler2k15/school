@@ -77,23 +77,25 @@ function init() {
 }
 
 function swapPuzzle() {
-    // Determine the puzzle to show based on the button's id value
+    if (confirm("You will lose all of your work on the puzzle! Continue?")) {
+        // Determine the puzzle to show based on the button's id value
 
-    var title = "Hanjie " + this.value;
-    var hint = eval(this.id + "Hint");
-    var rating = eval(this.id + "Rating");
-    var puzzle = eval(this.id);
+        var title = "Hanjie " + this.value;
+        var hint = eval(this.id + "Hint");
+        var rating = eval(this.id + "Rating");
+        var puzzle = eval(this.id);
 
-    // Write the puzzle data into the Web page.
-    document.getElementsByTagName("h1")[0].innerHTML = title;
-    document.getElementById("hint").innerHTML = hint;
-    document.getElementById("rating").innerHTML = rating;
+        // Write the puzzle data into the Web page.
+        document.getElementsByTagName("h1")[0].innerHTML = title;
+        document.getElementById("hint").innerHTML = hint;
+        document.getElementById("rating").innerHTML = rating;
 
-    // Display the pizzle using the drawGrid() function.
-    document.getElementById("puzzle").innerHTML = drawGrid(puzzle);
+        // Display the pizzle using the drawGrid() function.
+        document.getElementById("puzzle").innerHTML = drawGrid(puzzle);
 
-    // Set up the initial appearance of the first puzzle
-    setupPuzzle();
+        // Set up the initial appearance of the first puzzle
+        setupPuzzle();
+    }
 }
 
 function setupPuzzle() {
