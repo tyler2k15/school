@@ -74,6 +74,14 @@ function swapPuzzle() {
     var hint = eval(this.id + "Hint");
     var rating = eval(this.id + "Rating");
     var puzzle = eval(this.id);
+
+    // Write the puzzle data into the Web page.
+    document.getElementsByTagName("h1")[0].innerHTML = title;
+    document.getElementById("hint").innerHTML = hint;
+    document.getElementById("rating").innerHTML = rating;
+
+    // Display the pizzle using the drawGrid() function.
+    document.getElementById("puzzle").innerHTML = drawGrid(puzzle);
 }
 
 function drawGrid(puzzle) {

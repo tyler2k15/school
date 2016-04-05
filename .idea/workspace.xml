@@ -37,8 +37,8 @@
       <file leaf-file-name="hanjie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -309,7 +309,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="13268000" />
+      <workItem from="1459815898784" duration="14224000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -500,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459830526835</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Create swapPuzzle; function">
+      <created>1459830668884</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1459830668884</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24063000" />
+    <option name="totallyTimeSpent" value="25019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -559,7 +566,8 @@
     <MESSAGE value="Create the init() funtion" />
     <MESSAGE value="Apply onload event handler as an object property to init;" />
     <MESSAGE value="Adding onclick event handlers to puzzle buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding onclick event handlers to puzzle buttons" />
+    <MESSAGE value="Create swapPuzzle; function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create swapPuzzle; function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -945,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
