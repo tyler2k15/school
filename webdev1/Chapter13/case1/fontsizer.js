@@ -18,4 +18,7 @@
       based on the value of the font image button being clicked.
 	
 */
-
+window.onload = startup();
+function startup() {
+    
+}
