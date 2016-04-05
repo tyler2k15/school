@@ -27,8 +27,8 @@
       <file leaf-file-name="hanjie.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="153">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -307,7 +307,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="12528000" />
+      <workItem from="1459815898784" duration="12592000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -463,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459829806188</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Link hanjie.css, hanjie.js, and grids.js to hanjie.htm&#10;">
+      <created>1459829940143</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1459829940143</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23323000" />
+    <option name="totallyTimeSpent" value="23387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -517,7 +524,8 @@
     <MESSAGE value="Finalize Tutorial 12 - disclaimer about calendar not working." />
     <MESSAGE value="Update Ch13 Tutorial Folder name&#10;" />
     <MESSAGE value="Rename hanjietxt files to hanjie.js/htm&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename hanjietxt files to hanjie.js/htm&#10;" />
+    <MESSAGE value="Link hanjie.css, hanjie.js, and grids.js to hanjie.htm&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link hanjie.css, hanjie.js, and grids.js to hanjie.htm&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -903,8 +911,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter13/tutorial-optional/hanjie.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="153">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
           <folding />
         </state>
       </provider>
