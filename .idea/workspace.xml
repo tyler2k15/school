@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter12/tutorial/caltxt.js" afterPath="$PROJECT_DIR$/webdev1/Chapter12/tutorial/calendar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter12/tutorial/ccctxt.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter12/tutorial/ccc.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calendar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter12/tutorial/calendar.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
@@ -43,6 +42,16 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,9 +99,9 @@
         <option value="$PROJECT_DIR$/webdev1/Chapter11/tutorial/functions.js" />
         <option value="$PROJECT_DIR$/webdev1/Chapter11/tutorial/clock.htm" />
         <option value="$PROJECT_DIR$/webdev1/Chapter11/case3/guess.htm" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/webdev1/Chapter12/tutorial/ccc.htm" />
         <option value="$PROJECT_DIR$/webdev1/Chapter12/tutorial/calendar.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -308,7 +317,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="11722000" />
+      <workItem from="1459815898784" duration="11772000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -429,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459823471760</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Chapter 12 Tutorial">
+      <created>1459829145858</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1459829145858</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22517000" />
+    <option name="totallyTimeSpent" value="22567000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -478,7 +494,8 @@
     <MESSAGE value="Chapter 11 Tutorial" />
     <MESSAGE value="Chapter 11 Case 3" />
     <MESSAGE value="Update completed assignments&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update completed assignments&#10;" />
+    <MESSAGE value="Chapter 12 Tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 12 Tutorial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter12/tutorial/ccc.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -864,6 +873,14 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
