@@ -8,8 +8,8 @@
       Tutorial Case
 
       New Year's Countdown Clock
-      Author: 
-      Date:   
+      Author: Tyler Ronek
+      Date:   4/4/16
 
       Filename:         clock.htm
       Supporting files: banner.png, functions.js, 
@@ -22,10 +22,28 @@
       <script src="modernizr-1.5.js" type="text/javascript" ></script>
 
       <link href="newyear.css" rel="stylesheet" type="text/css" />
+      <script type="text/javascript" src="functions.js"></script>
+
+      <script type = "text/javascript">
+         function NYClock() {
+            // the today variable contains the current date and time.
+            var today = new Date("February 24, 2015 14:35:05");
+
+         // display the current date and time
+            document.clockform.dateNow.value = showDate(today);
+            document.clockform.timeNow.value = showTime(today);
+
+            // calculate the time left until the New Year's Eve Bash
+            document.clockform.daysLeft.value = "99 day(s)";
+            document.clockform.hrsLeft.value = "99 hour(s)";
+            document.clockform.minsLeft.value = "99 minute(s)";
+            document.clockform.secsLeft.value = "99 second(s)";
+         }
+      </script>
 
    </head>
 
-   <body>
+   <body onload="NYClock()">
       <form name="clockform" id="clockform" action="">
 
       <header>
