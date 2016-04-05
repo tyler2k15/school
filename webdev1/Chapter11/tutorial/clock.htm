@@ -25,25 +25,46 @@
       <script type="text/javascript" src="functions.js"></script>
 
       <script type = "text/javascript">
+         /*
+         Script not updating date/time on live webpage.
+          */
          function NYClock() {
-            // the today variable contains the current date and time.
-            var today = new Date("February 24, 2015 14:35:05");
+         // the today variable contains the current date and time.
+            var today = new Date();
 
          // display the current date and time
             document.clockform.dateNow.value = showDate(today);
             document.clockform.timeNow.value = showTime(today);
 
             // calculate the time left until the New Year's Eve Bash
-            document.clockform.daysLeft.value = "99 day(s)";
-            document.clockform.hrsLeft.value = "99 hour(s)";
-            document.clockform.minsLeft.value = "99 minute(s)";
-            document.clockform.secsLeft.value = "99 second(s)";
+            var days = calcDays(today);
+
+            // displays days rounded to the next lowest integer
+            document.clockform.daysLeft.value = Math.floor(days) + " day(s)";
+
+            // calculate the hours left in the current day
+            var hours = (days - Math.floor(days))*24;
+
+            // display hours rounded to the next lowest integer
+            document.clockform.hrsLeft.value = Math.floor(hours) + " hour(s)";
+
+            // calculate the minutes left in the current hour
+            var minutes = (hours - Math.floor(hours))*60;
+
+            // display minutes rounded to the next lowest integer
+            document.clockform.minsLeft.value = Math.floor(minutes) + " minute(s)";
+
+            // calculate the seconds left in the current minute
+            var seconds = (minutes - Math.floor(minutes))*60;
+
+            // display seconds rounded to the next lowest integer
+            document.clockform.secsLeft.value = Math.floor(seconds) + " second(s)";
          }
       </script>
 
    </head>
 
-   <body onload="NYClock()">
+   <body onload="setInterval('NYClock()',1000)">
       <form name="clockform" id="clockform" action="">
 
       <header>
