@@ -19,4 +19,18 @@
 
 */
 
+function changeStyle(sheet) {
 
+    // Loop through all of the link elements
+    var links = document.getElementsByTagName("link");
+    for (var i = 0; i < links.length; i++) {
+
+        // Pick out only the links from preferred or alternate style sheets
+        if ((links[i].rel == "stylesheet" || links[i].rel == "alternate stylesheet") && links[i].hasAttribute("title")) {
+
+            // Disable the style sheets whose title does not match the sheet parameter
+            if (links[i].title != sheet) links[i].disabled = true
+            else links[i].disabled = false;
+        }
+    }
+}

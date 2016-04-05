@@ -112,6 +112,17 @@ function createList(source, TOCList, headings) {
                 var nestedList = document.createElement("ol");
                 nestedList.appendChild(listItem);
 
+                // Create a plus-minus box
+                var plusMinusBox = document.createElement("span");
+                plusMinusBox.innerHTML = "-";
+
+                // Insert the plus-minus box directly before
+                // the last item in the current list.
+                TOCList.lastChild.insertBefore(plusMinusBox, TOCList.lastChild.lastChild);
+
+                // Expand and collapse the TOC and the document when the +/- box is clicked
+                plusMinusBox.onclick = expandCollapse;
+
                 // Append nested list to last item in the current list
                 TOCList.lastChild.appendChild(nestedList);
 
@@ -169,3 +180,61 @@ function createList(source, TOCList, headings) {
  *     A final note: the errors also occur when the script is at end of the
  *     <HEAD> element, even if it is also before the closing <body> element.
  */
+
+function expandCollapse() {
+
+    // Reference of the nested list that should be hidden or displayed
+    var nestedList = this.nextSibling.nextSibling;
+
+    if (this.innerHTML == "-") {
+        // Collapse the nested list, hiding the contents and changing the character to +
+        this.innerHTML = "+";
+        nestedList.style.display = "none";
+
+    } else {
+        // Expand the nested list, displaying the contents and changing the character to -
+        this.innerHTML = "-";
+        nestedList.style.display = "";
+    }
+
+    // Expand and collapse the source document to match
+    // the table of contents.
+    expandCollapseDoc();
+}
+
+function expandCollapseDoc() {
+
+    var displayStatus = "";
+    var source = document.getElementById("doc");
+    headings = ["H1", "H2", "H3", "H4", "H5", "H6"];
+
+    // Loop through every page element in the source document
+    for (var n = source.firstChild; n != null; n = n.nextSibling) {
+
+        if (headins.indexOf(n.nodeName) != -1) {
+            // Determines the display status of the
+            // matching TOC list item
+            var TOCentry = document.getElementById("TOC" + n.id);
+            if (isHidden(TOCentry)) displayStatus = "none"
+            else displayStatus = "";
+        }
+
+        if (n.nodeType == 1) {
+            // Set a display status only if the node represents
+            // a page element
+            n.style.display = displayStatus;
+        }
+    }
+}
+
+function isHidden(object) {
+
+    // Move up the node tree from object, return true of a
+    // hidden parent node is found, return false if all
+    // parent nodes are unhidden.
+    for (var n = object; n.nodeName != "BODY"; n = n.parentNode) {
+        if (n.style.display == "none") return true;
+    }
+
+    return false;
+}
