@@ -11,7 +11,7 @@ Includes files for all school projects in the following subjects:
 **Web Development I**
 
     [x] Chapter 10 Due 4/3
-    [] Chapter 11 Due 4/10 (complete before going to colorado on 4/7)
+    [x] Chapter 11 Due 4/10 (complete before going to colorado on 4/7)
     [] Chapter 12 Due 4/17
     [] Chapter 13 Due 4/24
     [] Chapter 14 Due 5/1
