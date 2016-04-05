@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" />
     </list>
     <ignored path="school.iws" />
@@ -52,8 +53,8 @@
       <file leaf-file-name="usconst.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -62,8 +63,8 @@
       <file leaf-file-name="toc.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="113" column="76" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -355,14 +356,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="21785000" />
-    </task>
-    <task id="LOCAL-00003" summary="Update README.md to include due dates.">
-      <created>1459817353335</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1459817353335</updated>
+      <workItem from="1459815898784" duration="22159000" />
     </task>
     <task id="LOCAL-00004" summary="Update README.md to include due dates.">
       <created>1459817639465</created>
@@ -700,11 +694,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459839158732</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Could it be that I mis-spelled something :O">
+      <created>1459839197469</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1459839197469</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32580000" />
+    <option name="totallyTimeSpent" value="32954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -719,7 +720,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -741,7 +742,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create the init() funtion" />
     <MESSAGE value="Apply onload event handler as an object property to init;" />
     <MESSAGE value="Adding onclick event handlers to puzzle buttons" />
     <MESSAGE value="Create swapPuzzle; function" />
@@ -766,7 +766,8 @@
     <MESSAGE value="Section 14.1&#10;Create the following functions:&#10;window.onload = makeTOC();&#10;Create makeTOC(), createList(),&#10;Apply indexOf() function &#10;Create list item for each function&#10;&#10;Notes: Followed tutorial and double checked all steps, but it does not seem to work on chrome or firefox from my `localhost`&#10;" />
     <MESSAGE value="Begin debug.&#10;Moved &lt;script src=&quot;toc.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; to before closing &lt;/body&gt; tag.&#10;Testing.&#10;This has solved the issue." />
     <MESSAGE value="Commented normal script location. Moving onto section 14.2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commented normal script location. Moving onto section 14.2&#10;" />
+    <MESSAGE value="Could it be that I mis-spelled something :O" />
+    <option name="LAST_COMMIT_MESSAGE" value="Could it be that I mis-spelled something :O" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1155,8 +1156,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="113" column="76" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1165,8 +1166,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="221">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding />
         </state>
       </provider>

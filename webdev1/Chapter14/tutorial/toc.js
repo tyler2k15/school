@@ -97,5 +97,19 @@ function createList(source, TOCList, headings) {
  Notes: Followed tutorial and double checked all steps,
  but it does not seem to work on chrome or firefox from my `localhost`
 
- 
+ ** After debugging, found that moving script src to before closing <body>
+ *     tag that it now behaves as it should. Unsure why this is a bug.
+ *     Debugger in WebStorm now also shows no errors, whereas before
+ *     it had 3 errors:
+ *     
+ *     Error 1: 'Uncaught TypeError: Cannot set property 'innerHTML' of null - toc.js:56'
+ *     Error 2: 'makeTOC - toc.js:56'
+ *     Error 3: '(anonymous function) - toc.js:40'
+ *     
+ *     Where toc.js:56/40 refers to the toc.js file lines 40 and 56
+ *     Line 40: window.onload = makeTOC();
+ *     Line 56: TOC.innerHTML = "<h1>Table of Contents</h1>";
+ *     
+ *     A final note: the errors also occur when the script is at end of the
+ *     <HEAD> element, even if it is also before the closing <body> element.
  */
