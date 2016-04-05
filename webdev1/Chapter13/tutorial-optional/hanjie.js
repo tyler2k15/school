@@ -119,6 +119,14 @@ function changeBackground() {
     this.style.backgroundColor = bColor;
 }
 
+function peek() {
+    // Create collection of cells that should be marked
+    var markedCells = document.querySelectorAll("#hanjieGrid td.marked");
+
+    // Create collection of cells that should be empty
+    var emptyCells = document.querySelectorAll("#hanjieGrid td.empty");
+}
+
 function drawGrid(puzzle) {
 
    /* Initial HTML String for the Hanjie Puzzle */
