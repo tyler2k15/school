@@ -125,6 +125,9 @@ function changeBackground() {
 
     // Apply the new background color to the data cell.
     this.style.backgroundColor = bColor;
+
+    // Check the puzzle solution
+    checkSolution();
 }
 
 function peek() {
