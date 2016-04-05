@@ -66,7 +66,14 @@ function makeTOC() {
 }
 
 function createList(source, TOCList, headings) {
-    //
+    
+    // Store the level of the previous list item
+    // 0 = top level, 1 = 2nd level, 2 = 3rd level, etc.
+    var prevLevel = 0;
+
+    // Keep a running count of the TOC entries from
+    // the source document
+    var entryNum = 0;
 
     // Loop through all of the child nodes of object,
     // sibling by sibling until no child nodes are left
@@ -78,9 +85,58 @@ function createList(source, TOCList, headings) {
         // If the node comes from a heading element,
         // create a list item and append it to the TOC
         if (nodeLevel != -1) {
+
+            // Add an id attribute to the element to be used
+            // as the target of a hypertext link
+            entryNum++;
+            if (n.id == "") n.id = "heading" + entryNum;
+
             var listItem = document.createElement("li");
-            listItem.innerHTML = n.innerHTML;
-            TOCList.appendChild(listItem);
+            listItem.id = "TOC" + n.id;//listItem.innerHTML = n.innerHTML;
+
+            // Create a link to the heading node in the source document
+            var linkItem = document.createElement("A");
+            linkItem.innerHTML = n.innerHTML;
+            linkItem.href = "#" + n.id;
+
+            // Append the hypertext link to the TOC list item
+            listItem.appendChild(linkItem);
+
+            if (nodeLevel == prevLevel) {
+                // Append the list item to the current list
+                TOCList.appendChild(listItem);
+            }
+
+            else if (nodeLevel > prevLevel) {
+                // Start a new nested list
+                var nestedList = document.createElement("ol");
+                nestedList.appendChild(listItem);
+
+                // Append nested list to last item in the current list
+                TOCList.lastChild.appendChild(nestedList);
+
+                // Change the current list to the nested list
+                TOCList = nestedList;
+            }
+
+            else {
+                // Append the list item to a higher nested list
+
+                // Calculate the difference between the previous
+                // level and the higher-order level
+                var levelUp = prevLevel - nodeLevel;
+
+                // Change the current list to the higher-order list
+                for (var i = 1; i <= levelUp; i++) {
+                    TOCList = TOCList.parentNode.parentNode;
+                }
+
+                TOCList.appendChild(listItem);
+            }
+
+            // Update the previous node level value to the current level
+            prevLevel = nodeLevel;
+
         }
     }
 }
