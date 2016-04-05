@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toctxt.js" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconsttxt.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/switchtxt.js" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/switchstyle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,20 +51,28 @@
       <file leaf-file-name="toc.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usconst.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="switchstyle.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/switchstyle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usconst.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -120,6 +129,9 @@
         <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/twins.htm" />
         <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css" />
         <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter14/tutorial/switchtxt.js" />
       </list>
     </option>
   </component>
@@ -335,7 +347,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="19327000" />
+      <workItem from="1459815898784" duration="19458000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -652,17 +664,24 @@
       <option name="project" value="LOCAL" />
       <updated>1459836557707</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Initial Chapter 14 Tutorial. Rename files - Add author/date fields">
+      <created>1459836742068</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1459836742068</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30122000" />
+    <option name="totallyTimeSpent" value="30253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25882354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25882354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -693,7 +712,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finalize Tutorial 12 - disclaimer about calendar not working." />
     <MESSAGE value="Update Ch13 Tutorial Folder name&#10;" />
     <MESSAGE value="Rename hanjietxt files to hanjie.js/htm&#10;" />
     <MESSAGE value="Link hanjie.css, hanjie.js, and grids.js to hanjie.htm&#10;" />
@@ -718,7 +736,8 @@
     <MESSAGE value="Link fontsizer.js to twins.htm, add fontbuttons to fontsizer class, and set values to -0.1 and +0.1" />
     <MESSAGE value="initial creation of startup(); function. enable running this function on page load." />
     <MESSAGE value="Finalize startup() function. final step to case 1. - Chapter 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalize startup() function. final step to case 1. - Chapter 13" />
+    <MESSAGE value="Initial Chapter 14 Tutorial. Rename files - Add author/date fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Chapter 14 Tutorial. Rename files - Add author/date fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -729,20 +748,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/tutorial/cp_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter4/case2/redball.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1103,20 +1108,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js">
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm">
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/largetext.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/switchstyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>

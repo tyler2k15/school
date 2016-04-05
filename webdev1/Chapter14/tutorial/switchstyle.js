@@ -3,8 +3,8 @@
    Tutorial 14
    Tutorial Case
 
-   Author: 
-   Date:   
+   Author: Tyler Ronek
+   Date:   4/4/16
 
    Filename: switchStyle.js
 
