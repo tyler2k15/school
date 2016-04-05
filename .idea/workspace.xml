@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f1763ca-11fd-4029-a422-a63c37823fa9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" afterPath="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" />
     </list>
     <ignored path="school.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,21 +49,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="usconst.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="usconst.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="272">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toc.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="toc.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="521">
+              <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/tlm.css" />
         <option value="$PROJECT_DIR$/webdev1/Chapter13/case1/fontsizer.js" />
         <option value="$PROJECT_DIR$/webdev1/Chapter14/tutorial/switchtxt.js" />
-        <option value="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" />
         <option value="$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js" />
+        <option value="$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm" />
       </list>
     </option>
   </component>
@@ -355,14 +355,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="21200000" />
-    </task>
-    <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
-      <created>1456950836230</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1456950836230</updated>
+      <workItem from="1459815898784" duration="21730000" />
     </task>
     <task id="LOCAL-00002" summary="Chapter 5">
       <created>1456958984479</created>
@@ -693,11 +686,25 @@
       <option name="project" value="LOCAL" />
       <updated>1459838584825</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Section 14.1&#10;Create the following functions:&#10;window.onload = makeTOC();&#10;Create makeTOC(), createList(),&#10;Apply indexOf() function &#10;Create list item for each function&#10;&#10;Notes: Followed tutorial and double checked all steps, but it does not seem to work on chrome or firefox from my `localhost`&#10;">
+      <created>1459838838252</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1459838838252</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Begin debug.&#10;Moved &lt;script src=&quot;toc.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; to before closing &lt;/body&gt; tag.&#10;Testing.&#10;This has solved the issue.">
+      <created>1459839042793</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1459839042794</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31995000" />
+    <option name="totallyTimeSpent" value="32525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -734,8 +741,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rename hanjietxt files to hanjie.js/htm&#10;" />
-    <MESSAGE value="Link hanjie.css, hanjie.js, and grids.js to hanjie.htm&#10;" />
     <MESSAGE value="insert event handler to" />
     <MESSAGE value="Create the init() funtion" />
     <MESSAGE value="Apply onload event handler as an object property to init;" />
@@ -759,7 +764,9 @@
     <MESSAGE value="Finalize startup() function. final step to case 1. - Chapter 13" />
     <MESSAGE value="Initial Chapter 14 Tutorial. Rename files - Add author/date fields" />
     <MESSAGE value="Link toc.css and toc.js to usconst.htm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link toc.css and toc.js to usconst.htm" />
+    <MESSAGE value="Section 14.1&#10;Create the following functions:&#10;window.onload = makeTOC();&#10;Create makeTOC(), createList(),&#10;Apply indexOf() function &#10;Create list item for each function&#10;&#10;Notes: Followed tutorial and double checked all steps, but it does not seem to work on chrome or firefox from my `localhost`&#10;" />
+    <MESSAGE value="Begin debug.&#10;Moved &lt;script src=&quot;toc.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; to before closing &lt;/body&gt; tag.&#10;Testing.&#10;This has solved the issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Begin debug.&#10;Moved &lt;script src=&quot;toc.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; to before closing &lt;/body&gt; tag.&#10;Testing.&#10;This has solved the issue." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1146,21 +1153,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/toc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="521">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webdev1/Chapter14/tutorial/usconst.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
