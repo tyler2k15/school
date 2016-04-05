@@ -68,6 +68,9 @@ function init() {
 
     // Set up the initial appearance of the first puzzle
     setupPuzzle();
+
+    // Add an event handler to the Peek! button
+    document.getElementById("peek").onclick = peek;
 }
 
 function swapPuzzle() {
@@ -125,6 +128,20 @@ function peek() {
 
     // Create collection of cells that should be empty
     var emptyCells = document.querySelectorAll("#hanjieGrid td.empty");
+
+    // Display every incorrect white cell in pink
+    for (var i = 0; i < markedCells.length; i++) {
+        cell = markedCells[i];
+        if (cell.style.backgroundColor == "white")
+            cell.style.backgroundColor = "rgb(255, 192, 192)";
+    }
+
+    // Display every incorrect darkened cell in red
+    for (var i = 0; i < emptyCells.lenth; i++) {
+        var cell = emptyCells[i];
+        if (cell.style.backgroundColor == "rgb(101, 101, 101)")
+            cell.style.backgroundColor = "red";
+    }
 }
 
 function drawGrid(puzzle) {
