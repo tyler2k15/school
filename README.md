@@ -13,8 +13,8 @@ Includes files for all school projects in the following subjects:
     [x] Chapter 10 Due 4/3
     [x] Chapter 11 Due 4/10 (complete before going to colorado on 4/7)
     [x] Chapter 12 Due 4/17
-    [] Chapter 13 Due 4/24
-    [] Chapter 14 Due 5/1
+    [x] Chapter 13 Due 4/24
+    [x] Chapter 14 Due 5/1
     [] Finals 5/2 - 5/6
 
 **Database Design**
