@@ -16,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\Tyler Ronek\Documents\GitHub\school" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -27,8 +27,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="119">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -229,7 +229,7 @@
       <option name="presentableId" value="Default" />
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
-      <workItem from="1459815898784" duration="1860000" />
+      <workItem from="1459815898784" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="Complete page 320. Tutorial 5">
       <created>1456950836230</created>
@@ -287,11 +287,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459817789451</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update README.md to include due dates.">
+      <created>1459817906494</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1459817906494</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12655000" />
+    <option name="totallyTimeSpent" value="12716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -701,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="119">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
