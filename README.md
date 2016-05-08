@@ -4,6 +4,11 @@ Includes files for all school projects in the following subjects:
 - Web Development 1
 - Files for Tutorials
 
+# Final Grades For Spring 2016
+- Web Development I: 87.84% B
+- Oracle Academy Database Design: Pending Week 11 Assignment Grade, 81%-86% B
+- C# Programming Language: 91.75% A
+
 
 # Assignments:
 
