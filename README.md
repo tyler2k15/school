@@ -4,6 +4,12 @@ Includes files for all school projects in the following subjects:
 - Web Development 1
 - Files for Tutorials
 
+# Final Grades for Fall 2015
+- Visual Basic I: D+
+- Math for Liberal Arts: D
+- Intro to Programming Logic: B
+- Windows Workstation Op Sys: C
+
 # Final Grades For Spring 2016
 - Web Development I: 87.84% B
 - Oracle Academy Database Design: Pending Week 11 Assignment Grade, 81%-86% B

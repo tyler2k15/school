@@ -31,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <first_editor relative-caret-position="170">
+                <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -277,14 +277,7 @@
       <updated>1455765003612</updated>
       <workItem from="1459811418933" duration="4464000" />
       <workItem from="1459815898784" duration="26512000" />
-      <workItem from="1462736301382" duration="478000" />
-    </task>
-    <task id="LOCAL-00011" summary="Update README.md to include due dates.">
-      <created>1459818021331</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1459818021331</updated>
+      <workItem from="1462736301382" duration="655000" />
     </task>
     <task id="LOCAL-00012" summary="Update README.md to include due dates.">
       <created>1459818064589</created>
@@ -622,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462736668900</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Add Final Grades Section to top of readme.md">
+      <created>1462736794973</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1462736794973</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37785000" />
+    <option name="totallyTimeSpent" value="37962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -663,7 +663,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create peek() funtion" />
     <MESSAGE value="Change background color for incorrect cells, making incorrect cells, assigning the peek() function to the onclick event." />
     <MESSAGE value="Create unpeek() function" />
     <MESSAGE value="Create showSolution function and adding event handler for it." />
@@ -688,7 +687,8 @@
     <MESSAGE value="Section 14.3, did the following:&#10;                                  * Create span element for +/- box&#10;                                  * Create +/- box&#10;                                  * Create event handler for +/- box&#10;                                  * expandCollapse funtion&#10;                                  * expand and collapse the nested lists in the TOC&#10;                                  * insert the expadCollapseDoc() function&#10;                                  * isHidden() function&#10;                                  * complete expandCollapse() and expandCollapseDoc()&#10;                                  * Create links to alternate style sheets &#10;                                  * Create buttons to switch style sheets&#10;                                  * Create switchStyle()to change from web/print/large print views&#10;                                  * Link switchstyles.js to usconst.htm" />
     <MESSAGE value="Updated completed assignments on readme.md" />
     <MESSAGE value="Updated completed assignments on readme.md, Input final Grades" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated completed assignments on readme.md, Input final Grades" />
+    <MESSAGE value="Add Final Grades Section to top of readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Final Grades Section to top of readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1059,8 +1059,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />
