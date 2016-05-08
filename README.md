@@ -15,19 +15,21 @@ Includes files for all school projects in the following subjects:
     [x] Chapter 12 Due 4/17
     [x] Chapter 13 Due 4/24
     [x] Chapter 14 Due 5/1
-    [] Finals 5/2 - 5/6
+    [x] Finals 5/2 - 5/6
+    Final Grade: 87.84% B+
 
 **Database Design**
 
-    [] Week 12: Due 4/10 (Needs done before 4/7 when leave state.)
-    [] Week 13: Due 4/17
-    [] Week 14: Due 4/24
-    [] Week 15: Due 5/1
-    [] Week 16: Finals 5/2-5/6
+    [x] Week 12: Due 4/10 (Needs done before 4/7 when leave state.)
+    [x] Week 13: Due 4/17
+    [x] Week 14: Due 4/24
+    [x] Week 15: Due 5/1
+    [x] Week 16: Finals 5/2-5/6
+    Final Grade: Pending Week 11 Assignment Grade, 81%-86% B
 
 **C#**
 
-    [] Chapter 10 Reading, test, and program (due 4/3/16 - 20% deduction after due date)
+    [x] Chapter 10 Reading, test, and program (due 4/3/16 - 20% deduction after due date)
       - Test score: 8/10
       - Assignment:
 
@@ -45,9 +47,9 @@ Includes files for all school projects in the following subjects:
              increases by $ 25 over its base cost. Each subclass should include a ToString() method that
              overrides the parent class version.
 
-    [] Chapter 11 Due 4/10
-      - Test score:
-    [] Chapter 12-13 Due 4/17
-    [] Chapter 14 Due 4/24
-    [] Chapter 15 Due 5/1
-    [] Final 5/2-5/6
+    [x] Chapter 11 Due 4/10
+    [x] Chapter 12-13 Due 4/17
+    [x] Chapter 14 Due 4/24
+    [x] Chapter 15 Due 5/1
+    [x] Final 5/2-5/6
+    Final Grade: 91.75% A
