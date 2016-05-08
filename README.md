@@ -16,7 +16,7 @@ Includes files for all school projects in the following subjects:
 - C# Programming Language: 91.75% A
 
 
-# Assignments:
+# Assignments (current semester):
 
 
 **Web Development I**
